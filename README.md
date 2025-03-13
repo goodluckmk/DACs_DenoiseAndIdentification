@@ -5,6 +5,8 @@ The matlab package are created in MATLAB 2023b.
 
 The pix2pix we refered is available for download at "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix".
 
+This package only requires a standard computed with sufficient RAM (8GB+) to reproduce the experimental results.
+
 ## User Guide
 1.The simulated datasets of pix2pix are genarated from the code "SimuADCs.m" and "SimuADCs_Batch.m".
 Sample images can be seen from the "simu_montage" folder.
