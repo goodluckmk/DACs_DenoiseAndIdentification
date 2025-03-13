@@ -1,6 +1,8 @@
 # DACs_DenopiseAndIdentification
 a algorithm workflow for high quality DACs HAADF-STEM image denoising and identification
 ## System Requirements
+All codes have been tested on Windows system
+
 The matlab package are created in MATLAB 2023b.
 
 The pix2pix we refered is available for download at "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix".
