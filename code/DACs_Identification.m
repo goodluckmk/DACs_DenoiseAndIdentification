@@ -20,7 +20,7 @@ end
 figure; 
 imshow(im);
 hold on;
-% 绘制未匹配的点（黄色圆点）
+% plot atomic sites
 plot(centers(:,1), centers(:,2), 'y.', ...
     "Marker","o",'MarkerSize', 7,'LineWidth', 1);
 title('sites localization');
