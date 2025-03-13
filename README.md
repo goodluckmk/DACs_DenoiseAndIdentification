@@ -19,3 +19,7 @@ you can get input data from folder "exp_test".
 
 4.The well trained checkpoints of pix2pix can be download at "https://figshare.com/articles/dataset/DACs_DenopiseAndIdentification/28586777", 
 and the pix2pix network we use is available for download at ‘https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix’.
+
+# License
+
+This project is covered under the **MIT License**.
