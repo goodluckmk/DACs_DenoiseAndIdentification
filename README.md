@@ -19,7 +19,7 @@ where "i_real_A.png"  denotes the raw image, "i_fake_B.png" denotes the denoised
 3.DACs identification can be realized by code "DACs_Identification.m" step by step. The result can be shown in "show_image" folder.
 you can get input data from folder "exp_test".
 
-4.The well trained checkpoints of pix2pix can be download at "https://figshare.com/articles/dataset/DACs_DenopiseAndIdentification/28586777", 
+4.The well trained checkpoints of pix2pix can be download at "https://figshare.com/articles/dataset/DACs_DenoiseAndIdentification/28588595", 
 and the pix2pix network we use is available for download at ‘https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix’.
 
 # License
