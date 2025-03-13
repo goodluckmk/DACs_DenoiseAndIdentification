@@ -1,4 +1,4 @@
-# DACs_DenopiseAndIdentification
+# DACs_DenoiseAndIdentification
 a algorithm workflow for high quality DACs HAADF-STEM image denoising and identification
 ## System Requirements
 All codes have been tested on Windows system
