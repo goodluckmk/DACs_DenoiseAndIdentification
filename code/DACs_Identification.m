@@ -44,6 +44,19 @@ end
 %% 1. get neighber sites
 d = 0.354/res;
 [neighbors, dists] = rangesearch(centers, centers, d*1.2);
+filtered_neighbors = cell(size(neighbors));
+filtered_dists = cell(size(dists));
+
+for i = 1:length(neighbors)
+    current_neighbors = neighbors{i};
+    current_dists = dists{i};
+    valid_indices = current_dists >= (d * 0.8) & current_dists <= (d * 1.2);
+    filtered_neighbors{i} = current_neighbors(valid_indices);
+    filtered_dists{i} = current_dists(valid_indices);
+end
+dists = filtered_dists;
+neighbors = filtered_neighbors;
+
 %% 2. set intensity threshold
 n = size(centers,1);
 n1 = round(n*0.15);
